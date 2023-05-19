@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">  
+
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="Te lo vendo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-te-lo-vendo.com</title>
+    <meta name="description" content="Ventas de productos por Internet">  
+    <meta name="keywords" content="Venta de productos digitales,servicios computación">
+   
+    <!-- CDN Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+         <!-- Vinculamos estilos Se integra Fontawesome-->   
+     <link rel="stylesheet" href="assets/css/style.css">
+     <script src="https://kit.fontawesome.com/f6f28e61f7.js" crossorigin="anonymous"></script>    
+     <!-- Vinculamos con FancyBox-->   
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"/>
+
+
+
+</head>  
+
+<body> 
+ <!-- INICIO DEL NAV -->
+  <nav class="navbar navbar-expand-lg bg-primary navbar-dark position-sticky">
+    <div class="container-fluid">
+      <!--Encabezado de la página-->
+      <li> 
+         <a href="#" target="_self" title="Sitio de HTML5">
+         <i class="fa fa-desktop" style="font-size:24px;color:rgba(248, 248, 248, 0.77)"></i>
+         </a>
+      </li>
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false"aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+               <a class="nav-link" href="index.html" target="_self" title="home">Inicio</a>
+            </li>
+
+           <li class="nav-item">
+              <a class="nav-link" href="quienes.html" target="_self" title="Quienes somos">Quienes somos</a>
+           </li>
+
+           <li class="nav-item">
+            <a class="nav-link" href="contacto.html" target="_self" title="Contacto">Contacto</a>
+           </li>
+        </ul>
+    </div>
+    </div>
+  </nav>
+    <!-- CIERRE DEL NAV -->
+
+
+    <!--Cabecera título de la pagina-->   
+        <header>
+            <h1>Te lo vendo</h1>      
+        </header>  
+           
+          <section>      
+            <article>
+                <h2 class="centrado">Misión</h2>
+                <p>
+                    La empresa <strong>Te lo Vendo</strong> es un emprendimiento de un
+                    grupo de jóvenes en Chile, dedicado a la venta de productos a
+                    través de canales en línea, como el teléfono, correo electrónico y
+                    próximamente un sitio web.
+                </p>
+            </article>      
+        </section>
+       
+  <!--Sección de la página-->
+  <section class="centrado">
+    <div class="centrador">
+        <h2 class="text-center">Galería de productos</h2>
+        <p class = "centrado"> Haz clic para ampliar(el 1ero es un video)</p>
+        <!--Imágenes y video con fancyBox-->
+        
+        <a data-fancybox href="https://youtu.be/CR0HrvthH18">
+        </a>
+        <a data-fancybox data-width="640" data-height="360" 
+            href="https://youtu.be/CR0HrvthH18">
+           <img src="assets/img/computador.png" width="200" height="200">
+        </a>
+                     
+        <a
+            class="col-12 col-sm-6 col-md-4 col-lg-2 text-center"
+            data-fancybox="gallery"
+            href="https://picsum.photos/id/160/1920/1080">
+            <img
+                src="https://picsum.photos/id/160/200/200"
+                alt=""
+                class="img-fluid border border-danger rounded-bottom rounded-top"/>
+        </a>
+        <a
+            class="col-12 col-sm-6 col-md-4 col-lg-2 text-center"
+            data-fancybox="gallery"
+            href="https://picsum.photos/id/370/1920/1080">
+            <img
+                src="https://picsum.photos/id/370/200/200"
+                alt=""
+                class="img-fluid border border-danger rounded-bottom rounded-top"/>
+        </a>
+        <a
+            class="col-12 col-sm-6 col-md-4 col-lg-2 text-center"
+            data-fancybox="gallery"
+            href="https://picsum.photos/id/96/1920/1080">
+            <img
+                src="https://picsum.photos/id/96/200/200"
+                alt=""
+                class="img-fluid border border-danger rounded-bottom rounded-top"/>
+        </a>
+        <a
+            class="col-12 col-sm-6 col-md-4 col-lg-2 text-center"
+            data-fancybox="gallery"
+            href="https://picsum.photos/id/119/1920/1080" >
+            <img
+                src="https://picsum.photos/id/119/200/200"
+                alt=""
+                class="img-fluid border border-danger rounded-bottom rounded-top"/>
+        </a>
+        
+    </div>
+   </section>
+   </div>
+           <aside>
+                <h3>Testimonios</h3>
+                <p>Web rcomendada.</p>
+            </aside>
+        <!--pie de pagina-->   
+        <footer>
+           <p>Integrante : José Marrufo  @copyright 2023</p>
+        </footer>
+ <!-- CDN Bootstrap-->
+       <script 
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" 
+            integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" 
+            crossorigin="anonymous">
+       </script>
+       <script 
+             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+             crossorigin="anonymous">
+        </script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js">
+        </script>
+
+</body>  
+</html>

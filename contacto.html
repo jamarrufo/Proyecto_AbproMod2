@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">  
+
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="Te lo vendo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web te lo vendo</title>
+    <meta name="description" content="Ventas de productos por Internet">  
+    <meta name="keywords" content="Venta de productos digitales,servicios computación">
+
+     <!-- CDN Bootstrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+     rel="stylesheet" 
+     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
+     crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+ 
+
+     <!-- Vinculamos estilos Se integra Fontawesome-->   
+     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/f6f28e61f7.js" crossorigin="anonymous"></script>    
+</head>  
+
+<body> 
+     <!-- INICIO DEL NAV -->
+  <nav class="navbar navbar-expand-lg bg-primary navbar-dark position-sticky">
+    <div class="container-fluid">
+      <!--Encabezado de la página-->
+      <li> 
+         <a href="#" target="_self" title="Sitio de HTML5">
+          <i class="fa fa-desktop" style="font-size:24px;color:rgba(248, 248, 248, 0.77)"></i>
+         </a>
+      </li>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false"aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+               <a class="nav-link" href="index.html" target="_self" title="home">Inicio</a>
+            </li>
+
+           <li class="nav-item">
+              <a class="nav-link" href="quienes.html" target="_self" title="Quienes somos">Quienes somos</a>
+           </li>
+
+           <li class="nav-item">
+            <a class="nav-link" href="contacto.html" target="_self" title="Contacto">Contacto</a>
+           </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- CIERRE DEL NAV -->        
+                   
+        <section>      
+            <article>
+              <h2>Contacto</h2>
+                <p>
+                    Formulario para que puedas contactarnos y podamos conversar
+                    sobre tus necesidades y requerimiento de proyecto.
+                </p>
+            </article>      
+        </section>
+        <section>      
+            <article>
+                <h2 class="centrado">Formulario</h2>
+                <div>
+            </article>
+                  <main class="container-fluid text-center">
+                    <section class="row justify-content-md-center">
+                      <!--Formulario de contacto-->
+                      <form
+                        id="form"
+                        class="col-12 col-md-8"
+                        action="contacto.html"
+                        method="get"
+                      >                         
+                        <div class="mb-3">
+                          <label class="form-label" for="nombre_usuario">
+                            Nombre de usuario
+                          </label>
+                          <input
+                            class="form-control"
+                            type="text"
+                            name="nombre_usuario"
+                            id="nombre_usuario"
+                          />
+                        </div>
+                        <div class="mb-3">
+                          <label for="correo"> Correo</label>
+                          <input
+                            class="form-control"
+                            type="email"
+                            name="correo"
+                            id="correo"
+                          />
+                        </div>
+              
+                        <div class="mb-3">
+                          <label class="form-label" for="mensaje">Mensaje</label>
+                          <textarea
+                            class="form-control"
+                            name="mensaje"
+                            id="mensaje"
+                            rows="3"
+                          ></textarea>
+                        </div>
+              
+                        <div class="d-grid gap-2">
+                          <button class="btn btn-primary btn-block" type="submit">
+                            Enviar
+                          </button>
+                        </div>
+                      </form>
+         </section>
+                  </main>
+        <aside>
+             <h3>Testimonios</h3>
+             <p>Web rcomendada.</p>
+        </aside>
+        <!--pie de pagina-->   
+        <footer>
+            <p>Integrante : José Marrufo  @copyright 2023</p>
+        </footer>
+        <script 
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" 
+            integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" 
+            crossorigin="anonymous">
+       </script>
+       <script 
+             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+             crossorigin="anonymous">
+        </script> 
+</body>  
+</html>
